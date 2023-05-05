@@ -1,0 +1,27 @@
+@import "https://unpkg.com/open-props";
+
+@font-face {
+    font-family: destroyEarth;
+    src: url('/fonts/DestroyEarthBB.otf');
+}
+
+.image-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    place-content: center;
+    height: 100vh;
+}
+
+.grid-item {
+    display: grid;
+    justify-content: center;
+    border: 1px solid red;
+    background-image: url('/images/010.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+img {
+    width: 50px;
+}

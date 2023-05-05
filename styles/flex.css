@@ -1,0 +1,16 @@
+.nav-list {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+.nav-list>li {
+    width: 100px;
+    height: 100px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

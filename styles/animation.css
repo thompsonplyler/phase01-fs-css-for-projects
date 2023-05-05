@@ -1,0 +1,32 @@
+.text-container {
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+
+.text-container:hover {
+    background-color: hsl(0, 100%, 50%);
+    /* scale, translate, rotate */
+}
+
+@keyframes background-change {
+    0% {
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    50% {
+        background-color: hsl(0, 100%, 50%);
+    }
+
+    100% {
+        background-color: hsl(0, 72%, 74%);
+    }
+
+}
+
+footer {
+    height: 250px;
+}
+
+footer:hover {
+    animation: background-change 1s forwards;
+}

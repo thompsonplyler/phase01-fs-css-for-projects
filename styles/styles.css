@@ -1,0 +1,19 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid blue */
+}
+
+:root {}
+
+.block {
+    background-color: var(--teal-3);
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    border: 2px dotted goldenrod;
+}
